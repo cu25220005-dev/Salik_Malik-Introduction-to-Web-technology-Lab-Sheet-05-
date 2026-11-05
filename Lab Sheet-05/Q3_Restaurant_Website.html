@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Paradise Restaurant</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #fff8f0;
+        }
+        header {
+            background: #922b21;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+        nav {
+            background: #641e16;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 25px;
+            text-align: center;
+        }
+        .menu {
+            display: inline-block;
+            background: white;
+            padding: 20px;
+            margin: 10px;
+            width: 180px;
+            border-radius: 10px;
+        }
+        button {
+            background: #922b21;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        footer {
+            background: #641e16;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Food Paradise</h1>
+    <p>Delicious Food, Happy Life!</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome to Food Paradise</h2>
+    <p>Enjoy delicious food with your family and friends.</p>
+    <button onclick="showOffer()">Today's Offer</button>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>We serve fresh, tasty and hygienic food.</p>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+
+    <div class="menu">
+        <h3>Pizza</h3>
+        <p>Price: ₹199</p>
+    </div>
+
+    <div class="menu">
+        <h3>Burger</h3>
+        <p>Price: ₹99</p>
+    </div>
+
+    <div class="menu">
+        <h3>Pasta</h3>
+        <p>Price: ₹149</p>
+    </div>
+
+    <div class="menu">
+        <h3>Sandwich</h3>
+        <p>Price: ₹79</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: foodparadise@gmail.com</p>
+    <p>Phone: 9876543210</p>
+    <p>Address: Delhi, India</p>
+</section>
+
+<footer>
+    <p>Copyright 2026 Food Paradise</p>
+</footer>
+
+<script>
+    function showOffer() {
+        alert("Special Offer: Get 20% Discount!");
+    }
+</script>
+
+</body>
+</html>

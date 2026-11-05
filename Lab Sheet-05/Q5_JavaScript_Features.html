@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Features</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+            padding: 30px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background: #2874a6;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1 id="heading">JavaScript Practical</h1>
+
+<p id="message">Welcome to JavaScript.</p>
+
+<button onclick="changeText()">Change Text</button>
+<button onclick="changeColor()">Change Background</button>
+<button onclick="showDate()">Show Date and Time</button>
+
+<h3 id="date"></h3>
+
+<script>
+    function changeText() {
+        document.getElementById("message").innerHTML =
+        "JavaScript makes websites interactive!";
+    }
+
+    function changeColor() {
+        document.body.style.backgroundColor = "lightblue";
+    }
+
+    function showDate() {
+        document.getElementById("date").innerHTML = new Date();
+    }
+</script>
+
+</body>
+</html>
